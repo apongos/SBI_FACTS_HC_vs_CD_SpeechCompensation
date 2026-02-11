@@ -1,0 +1,32 @@
+{
+  "format": "npz_shards_v1",
+  "axis": 0,
+  "files": [
+    {
+      "path": "simulations_part1.npz",
+      "keys": {
+        "theta": "Simulation_parameters",
+        "x": "Simulation_output"
+      },
+      "num_rows": 301040
+    },
+    {
+      "path": "simulations_part2.npz",
+      "keys": {
+        "theta": "Simulation_parameters",
+        "x": "Simulation_output"
+      },
+      "num_rows": 301040
+    }
+  ],
+  "total_rows": 602080,
+  "theta_shape": [
+    602080,
+    9
+  ],
+  "x_shape": [
+    602080,
+    140
+  ],
+  "note": "Concatenate shards along 'axis' to reconstruct full arrays."
+}

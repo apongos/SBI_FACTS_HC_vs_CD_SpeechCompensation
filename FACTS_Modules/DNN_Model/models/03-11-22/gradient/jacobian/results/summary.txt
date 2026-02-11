@@ -1,0 +1,9 @@
+Architecture
+[128, 128, 128, 128, 128]
+['relu', 'relu', 'relu', 'relu', 'relu']
+Learning Rate: 1e-06
+Batch size: 256
+Data: ../models/03-11-22/gradient/jacobian/data/
+Initial Validation Loss During Training: 505.173905
+Min Validation Loss During Training: 0.010395
+

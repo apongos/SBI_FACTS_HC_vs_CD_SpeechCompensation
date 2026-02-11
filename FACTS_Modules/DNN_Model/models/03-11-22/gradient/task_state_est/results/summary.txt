@@ -1,0 +1,9 @@
+Architecture
+[128, 128, 128, 128, 128]
+['relu', 'relu', 'relu', 'relu', 'relu']
+Learning Rate: 1e-06
+Batch size: 256
+Data: ../models/03-11-22/gradient/task_state_est/data/
+Initial Validation Loss During Training: 0.137457
+Min Validation Loss During Training: 0.002955
+
