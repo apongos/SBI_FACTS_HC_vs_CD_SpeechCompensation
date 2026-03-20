@@ -17,15 +17,31 @@
         "x": "Simulation_output"
       },
       "num_rows": 301040
+    },
+        {
+      "path": "Nefelis_simulations_part1.npz",
+      "keys": {
+        "theta": "Simulation_parameters",
+        "x": "Simulation_output"
+      },
+      "num_rows": 150000
+    },
+    {
+      "path": "Nefelis_simulations_part2.npz",
+      "keys": {
+        "theta": "Simulation_parameters",
+        "x": "Simulation_output"
+      },
+      "num_rows": 150000
     }
   ],
-  "total_rows": 602080,
+  "total_rows": 902080,
   "theta_shape": [
-    602080,
+    902080,
     9
   ],
   "x_shape": [
-    602080,
+    902080,
     140
   ],
   "note": "Concatenate shards along 'axis' to reconstruct full arrays."

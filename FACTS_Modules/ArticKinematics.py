@@ -30,7 +30,7 @@ class ArticKinematics_Noise(ArticKinematics):
     def __init__(self,kin_configs):
         self.norms_adotdot = string2dtype_array(kin_configs['norms_ADOTDOT'],'float32')
         self.plant_scale = float(kin_configs['plant_scale']) #for controller noise, move it later 1/26/2021
-        print(f'self.plant_scale:  {self.plant_scale} ')
+        #print(f'self.plant_scale:  {self.plant_scale} ')
     def run(self, prev_a_actual, adotdot, ms_frm):
         adotdot_noise = add_plant_noise(self.plant_scale,self.norms_adotdot,adotdot)
         a = super().run(prev_a_actual, adotdot_noise, ms_frm)
