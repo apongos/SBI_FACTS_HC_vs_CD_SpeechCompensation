@@ -1,2 +1,12 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# SBI / TensorBoard training logs
+sbi-logs/
+
 # Large SBI inference resources (exceed GitHub 100 MB limit)
 sbi_resources/Test_inference_602080_16_5e-06.pkl
